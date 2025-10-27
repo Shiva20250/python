@@ -25,3 +25,4 @@ print("Looping Over Array and displaying individual element")
 for row in students:
     for element in row:
         print(element)
+        
