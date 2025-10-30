@@ -26,3 +26,53 @@ Fruit.remove("Watermelon")
 print("Index of=",Fruit.index("Apple"))
 print(Fruit)
 print("Index of=",Fruit.index("Apple",Fruit.index("Apple")+1))
+
+# WAP to accept 2 number and 1 operator [+,-,*,/] based on operator perform calculation
+
+def addition() :
+    n1=int(input("Enter a number: "))
+    n2=int(input("Enter a second number: "))
+
+    result=n1+n2
+    print("The result of addition is:",result)
+
+ 
+
+
+addition()
+
+def multipy():
+    n1=int(input("Enter a number :"))
+    n2=int(input("Enter a second number: "))
+
+    result=n1*n2
+    print("The result of multiplication is :",result)
+
+multipy()
+
+def sub():
+    n1=int(input("Enter a number: "))
+    n2=int(input("Enter a second number:"))
+
+    result=n1-n2
+    print("The result of substraction is:",result)
+
+
+sub()
+
+def div():
+    n1=int(input("Enter a number:"))
+    n2=int(input("Enter a second number:"))
+
+    result=n1//n2
+    print("The result of Division is:",result)
+
+
+div()
+
+
+
+
+
+
+

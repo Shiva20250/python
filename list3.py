@@ -24,4 +24,4 @@ print(my_list)
 
 
 my_list.extend(["Orange","Mango","Pineapple"])
-print(my_list
+print(my_list)
