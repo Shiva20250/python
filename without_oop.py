@@ -44,3 +44,4 @@ sachin = {
     "birthyear":1945,
     "score":[],
 }
+# Wap to check whether number is prime or not and also display there factors
